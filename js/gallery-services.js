@@ -12,7 +12,6 @@ function _createProj(id, name, title, date, url) {
         title: title,
         desc: 'lorem ipsum lorem ipsum lorem ipsum',
         url: url,
-        // url: `projs/${id}`,
         publishedAt: date,
         labels: ['Matrixes', 'keyboard events']
     }
