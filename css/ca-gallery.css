@@ -894,3 +894,7 @@ fieldset[disabled] .btn-xl:hover {
 .msg-btn {
     height: 300px;
 }
+
+.btn-url {
+    margin-bottom: 20px;
+}

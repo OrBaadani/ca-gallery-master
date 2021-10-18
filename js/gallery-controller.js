@@ -56,7 +56,7 @@ function renderModals() {
                         <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                         <img class="img-fluid d-block mx-auto" src="img/portfolio/${proj.id}.png" alt="">
                         <p>${proj.desc}</p>
-<a class="btn btn-primary" href="${proj.url}" target="_blank">Check it Out</a>
+<a class="btn btn-primary btn-url" href="${proj.url}" target="_blank">Check it Out</a>
                         <ul class="list-inline">
                             <li>Date: ${proj.publishedAt}</li>
                             <li>Client: Threads</li>
