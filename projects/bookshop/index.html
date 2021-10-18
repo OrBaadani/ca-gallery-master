@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="renderBooks()">
+    <h1>Book Shop</h1>
+    <div class="view-option">
+        <div onclick="onChangeView('cards')"><img src="img/menu.png" alt=""></div>
+        <div onclick="onChangeView('table')"><img src="img/menu-button-of-three-horizontal-lines.png" alt=""></div>
+    </div>
+    <a href="" onclick="onAddBook()">Create a new book</a>
+    <section class="page">
+        <button onclick="onPage('previous')"><</button><input type="text" value=1 disabled/>
+        <button onclick="onPage('next')">></button>
+    </section>
+    <section class="books-container">
+
+    </section>
+
+    <div class="modal" hidden>
+        <h3></h3>
+        <h6>Price: <span></span>₪</h6>
+        <img>
+        <div></div>
+        <p></p>
+        <button onclick="onCloseModal()">Close</button>
+    </div>
+    <script src="js/services/storage.service.js"></script>
+    <script src="js/services/book-service.js"></script>
+    <script src="js/services/util-service.js"></script>
+    <script src="js/book-controller.js"></script>
+</body>
+
+</html>

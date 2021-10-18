@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 2px;
+}
+
+.modal img {
+    height: 150px;
+}
+
+.book-table {
+    background-color: rgb(224, 246, 253);
+}
+
+.books-container img {
+    height: 150px;
+}
+
+.book-preview {
+    width: 18%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 5px solid lightgray;
+    background-color: rgb(224, 246, 253);
+    text-align: center;
+    padding: 5px;
+}
+
+.page input {
+    width: 13px;
+}
+
+.table {
+    position: relative;
+}
+
+tbody {
+    border: 1px solid;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.delete-btn {
+    color: gray;
+    height: 20px;
+    width: 20px;
+    border: 1px solid lightcoral;
+    border-radius: 3px;
+    padding: 2px;
+    float: right;
+    cursor: pointer;
+}
+
+.view-option div {
+    border-radius: 5px;
+    display: inline-block;
+    background-color: lightblue;
+    height: 50px;
+}
+
+.view-option img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+.modal {
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    height: 100%;
+    min-width: 300px;
+    background-color: lightgoldenrodyellow;
+}
+
+.modal input {
+    width: 13px;
+}
