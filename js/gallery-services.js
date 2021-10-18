@@ -4,7 +4,7 @@ var gProjs;
 _createProjs();
 
 function _createProj(id, name, title, date, url) {
-    if (!url) url = `../projects/${id}/index.html`;
+    if (!url) url = `./projects/${id}/index.html`;
 
     return {
         id: id,
